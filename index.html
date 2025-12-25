@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineLux Pro</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Fon musiqa -->
+<audio id="bgMusic" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<header class="navbar">
+    <h1>CineLux <span>🎬</span></h1>
+    <div class="nav-actions">
+        <select id="lang">
+            <option value="uz">UZ</option>
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+        </select>
+        <input type="text" id="search" placeholder="Kino qidirish...">
+    </div>
+</header>
+
+<!-- HERO + Slider -->
+<section class="hero">
+    <div class="slider" id="slider">
+        <div class="slide active">
+            <img src="" alt="Interstellar">
+            <div class="slide-info">
+                <h2>Interstellar</h2>
+                <p>Ilmiy-fantastik drama, kosmos va vaqt haqida</p>
+                <span>⭐ 8.6 | Sci-Fi | 2014</span>
+                <button onclick="openModal('zSWdZVtXT7E')">▶ Play</button>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="" alt="Joker">
+            <div class="slide-info">
+                <h2>Joker</h2>
+                <p>Yurakka ta’sir qiluvchi hikoya</p>
+                <span>⭐ 8.4 | Drama | 2019</span>
+                <button onclick="openModal('zAGVQLHvwOY')">▶ Play</button>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="" alt="Mad Max">
+            <div class="slide-info">
+                <h2>Mad Max</h2>
+                <p>Hayajonli va adrenalin to‘la film</p>
+                <span>⭐ 8.1 | Action | 2015</span>
+                <button onclick="openModal('hEJnMQG9ev8')">▶ Play</button>
+            </div>
+        </div>
+    </div>
+    <div class="slider-controls">
+        <button id="prev">◀</button>
+        <button id="next">▶</button>
+    </div>
+</section>
+
+<!-- Filters -->
+<section class="filters">
+    <button onclick="filterMovies('all')">Hammasi</button>
+    <button onclick="filterMovies('action')">Action</button>
+    <button onclick="filterMovies('drama')">Drama</button>
+    <button onclick="filterMovies('fantasy')">Fantasy</button>
+</section>
+
+<!-- Movies Grid -->
+<section class="movies" id="movies">
+    <div class="movie action">
+        <img src="" alt="Interstellar">
+        <div class="info">
+            <h3>Interstellar</h3>
+            <p>Ilmiy-fantastik drama, kosmos va vaqt haqida</p>
+            <span>⭐ 8.6 | Sci-Fi | 2014</span>
+            <button onclick="openModal('zSWdZVtXT7E')">▶ Play</button>
+        </div>
+    </div>
+    <div class="movie drama">
+        <img src="" alt="Joker">
+        <div class="info">
+            <h3>Joker</h3>
+            <p>Yurakka ta’sir qiluvchi hikoya</p>
+            <span>⭐ 8.4 | Drama | 2019</span>
+            <button onclick="openModal('zAGVQLHvwOY')">▶ Play</button>
+        </div>
+    </div>
+    <div class="movie action">
+        <img src="" alt="Mad Max">
+        <div class="info">
+            <h3>Mad Max</h3>
+            <p>Hayajonli va adrenalin to‘la film</p>
+            <span>⭐ 8.1 | Action | 2015</span>
+            <button onclick="openModal('hEJnMQG9ev8')">▶ Play</button>
+        </div>
+    </div>
+    <div class="movie fantasy">
+        <img src="" alt="Fantasy">
+        <div class="info">
+            <h3>Fantasy World</h3>
+            <p>Sehrli olamga sayohat, vizual effektlar bilan</p>
+            <span>⭐ 7.9 | Fantasy | 2020</span>
+            <button onclick="openModal('abcd1234')">▶ Play</button>
+        </div>
+    </div>
+</section>
+
+<!-- Actor Info -->
+<section class="actors">
+    <h2>Asosiy aktyorlar</h2>
+    <div class="actor-grid">
+        <div class="actor">
+            <img src="" alt="Actor1">
+            <h3>Matthew McConaughey</h3>
+            <p>Interstellar - Cooper</p>
+        </div>
+        <div class="actor">
+            <img src="" alt="Actor2">
+            <h3>Joaquin Phoenix</h3>
+            <p>Joker - Arthur</p>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+    <span onclick="closeModal()">✖</span>
+    <iframe id="video" allowfullscreen></iframe>
+</div>
+
+<script src="java.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
