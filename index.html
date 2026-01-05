@@ -1,146 +1,359 @@
+
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CineLux Pro</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Marketing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Vector.png">
 </head>
 <body>
-
-<!-- Fon musiqa -->
-<audio id="bgMusic" loop>
-    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-</audio>
-
-<header class="navbar">
-    <h1>CineLux <span>🎬</span></h1>
-    <div class="nav-actions">
-        <select id="lang">
-            <option value="uz">UZ</option>
-            <option value="en">EN</option>
-            <option value="ru">RU</option>
-        </select>
-        <input type="text" id="search" placeholder="Kino qidirish...">
+    <div class="block">
+        <div class="card">
+            <a href="#" class="txt">Do’konlarimiz</a>
+            <a href="#" class="txt">Biz haqimizda</a>
+            <a href="#" class="txt">Bog’lanish</a>
+        </div>
+        <div class="card">
+            <a href="#" class="txt1">Call center:</a>
+            <div class="div">
+            <img src="" class="ph">
+            <a href="#" class="txt1">+998 94 656-22-22</a>
+        </div>
+        </div>
     </div>
-</header>
-
-<!-- HERO + Slider -->
-<section class="hero">
-    <div class="slider" id="slider">
-        <div class="slide active">
-            <img src="" alt="Interstellar">
-            <div class="slide-info">
-                <h2>Interstellar</h2>
-                <p>Ilmiy-fantastik drama, kosmos va vaqt haqida</p>
-                <span>⭐ 8.6 | Sci-Fi | 2014</span>
-                <button onclick="openModal('zSWdZVtXT7E')">▶ Play</button>
+    <div class="block1">
+        <div class="card1">
+            <div class="div1">
+                <img src="" class="ph1">
             </div>
-        </div>
-        <div class="slide">
-            <img src="" alt="Joker">
-            <div class="slide-info">
-                <h2>Joker</h2>
-                <p>Yurakka ta’sir qiluvchi hikoya</p>
-                <span>⭐ 8.4 | Drama | 2019</span>
-                <button onclick="openModal('zAGVQLHvwOY')">▶ Play</button>
+            <div class="div2">
+                <div class="div3">
+                <img src="" class="ph2">
+                 <input type="text" class="sir" placeholder="Mahsulotlarni qidirish">
             </div>
-        </div>
-        <div class="slide">
-            <img src="" alt="Mad Max">
-            <div class="slide-info">
-                <h2>Mad Max</h2>
-                <p>Hayajonli va adrenalin to‘la film</p>
-                <span>⭐ 8.1 | Action | 2015</span>
-                <button onclick="openModal('hEJnMQG9ev8')">▶ Play</button>
+            </div>
+            <div class="div6">
+                <img src="Vector.png" class="ph3">
+                <button class="bt">0</button>
+            </div>
+            <div class="div7">
+                <button class="bt1">Ro’yxatdan o’tish</button>
             </div>
         </div>
     </div>
-    <div class="slider-controls">
-        <button id="prev">◀</button>
-        <button id="next">▶</button>
-    </div>
-</section>
-
-<!-- Filters -->
-<section class="filters">
-    <button onclick="filterMovies('all')">Hammasi</button>
-    <button onclick="filterMovies('action')">Action</button>
-    <button onclick="filterMovies('drama')">Drama</button>
-    <button onclick="filterMovies('fantasy')">Fantasy</button>
-</section>
-
-<!-- Movies Grid -->
-<section class="movies" id="movies">
-    <div class="movie action">
-        <img src="" alt="Interstellar">
-        <div class="info">
-            <h3>Interstellar</h3>
-            <p>Ilmiy-fantastik drama, kosmos va vaqt haqida</p>
-            <span>⭐ 8.6 | Sci-Fi | 2014</span>
-            <button onclick="openModal('zSWdZVtXT7E')">▶ Play</button>
+    <div class="block2">
+        <div class="card3 card3s">
+            <h2 class="tx1">BIZ SIZGA HAR QANDAY <br> MAHSULOTNI YETKAZAMIZ </h2>
+            <p class="tx2">Turli xil oziq-ovqat mahsulotlarini “Inmart” supermarketi orqali tez <br> va sifatli buyurtma qilishingiz mumkin. Biz bilan birga bo’ling.</p>
+            <button class="bt2">Buyurtma berish</button>
+        </div>
+        <div class="ghost">
+            <img src="9beacb320405d03c5f20acdee417f1c7653d1aa7.png" alt="">
         </div>
     </div>
-    <div class="movie drama">
-        <img src="" alt="Joker">
-        <div class="info">
-            <h3>Joker</h3>
-            <p>Yurakka ta’sir qiluvchi hikoya</p>
-            <span>⭐ 8.4 | Drama | 2019</span>
-            <button onclick="openModal('zAGVQLHvwOY')">▶ Play</button>
-        </div>
+    <div class="block3">
+        <div class="card4">
+        <a href="#" class="txt3">Barchasi</a>
+        <a href="#" class="txt3">Mevalar va sabzavotlar</a>
+        <a href="#" class="txt3">Sut va sut mahsulotlari</a>
+        <a href="#" class="txt3">Suv va ichimliklar</a>
+        <a href="#" class="txt3">Suv va ichimliklar</a>
+        <span class="sp1"></span>
     </div>
-    <div class="movie action">
-        <img src="" alt="Mad Max">
-        <div class="info">
-            <h3>Mad Max</h3>
-            <p>Hayajonli va adrenalin to‘la film</p>
-            <span>⭐ 8.1 | Action | 2015</span>
-            <button onclick="openModal('hEJnMQG9ev8')">▶ Play</button>
-        </div>
     </div>
-    <div class="movie fantasy">
-        <img src="" alt="Fantasy">
-        <div class="info">
-            <h3>Fantasy World</h3>
-            <p>Sehrli olamga sayohat, vizual effektlar bilan</p>
-            <span>⭐ 7.9 | Fantasy | 2020</span>
-            <button onclick="openModal('abcd1234')">▶ Play</button>
+    <p class="tx3">TOP MAHSULOTLAR</p>
+    <div class="block4">
+        <div class="card5">
+            <img src="b67fb8f5e4b1447f5ca927a162cab883da509023.png" class="ph4">
+            <p class="tx4">15 000 so’m / dona</p>
+            <p class="tx5">Nescafe Special</p>
+            <button class="bt3">Savatchaga qo’shish</button>
         </div>
-    </div>
-</section>
-
-<!-- Actor Info -->
-<section class="actors">
-    <h2>Asosiy aktyorlar</h2>
-    <div class="actor-grid">
-        <div class="actor">
-            <img src="" alt="Actor1">
-            <h3>Matthew McConaughey</h3>
-            <p>Interstellar - Cooper</p>
+        <div class="card5">
+            <img src="5f1c241793f368030978059238e98b0feff5d860.png" class="ph4">
+            <p class="tx4">24 000 so’m / kg</p>
+            <p class="tx5">Malayziya banani</p>
+            <button class="bt3">Savatchaga qo’shish</button>
         </div>
-        <div class="actor">
-            <img src="" alt="Actor2">
-            <h3>Joaquin Phoenix</h3>
-            <p>Joker - Arthur</p>
+        <div class="card5">
+            <img src="694f02877ba609e66092606022cebbb753ec6ab4 (1).png" class="ph4">
+            <p class="tx4">32 000 so’m / kg</p>
+            <p class="tx5">Alanga guruchl</p>
+            <button class="bt3">Savatchaga qo’shish</button>
         </div>
-    </div>
-</section>
-
-<!-- Modal -->
-<div class="modal" id="modal">
-    <span onclick="closeModal()">✖</span>
-    <iframe id="video" allowfullscreen></iframe>
+        <div class="card5">
+            <img src="67acf585ce9111bc185868c8d26729aba22119c8.png" class="ph4">
+             <p class="tx4">25 990 so’m / kg</p>
+            <p class="tx5">Mosh</p>
+            <div class="div8">
+    <button class="bt4 min">−</button>
+    <span class="coin">0</span>
+    <button class="bt4 pl">+</button>
 </div>
+        </div>
+    </div>
 
-<script src="java.js"></script>
+<div class="vid">
+    <p class="tx3">YANGILIKLAR</p>
+    <div class="div10 sps">
+    <span class="sp2">-</span>
+</div>
+    <div class="div10">
+    <span class="sp2">+</span>
+    </div>
+</div>
+    <div class="block4">
+        <div class="card6">
+            <div class="div9">
+                <p class="tx4">Dena soklaridan 50 dona xarid qiling </p>
+                <p class="tx4 txtt2">va 10% chegirmaga ega bo’ling.</p>
+                <a href="#" class="txt4">Batafsil </a>
+            </div>
+            <div class="div9">
+                <img src="999017a1501573f5711b97842e66254ae529b469.png" class="ph5">
+            </div>
+        </div>
+         <div class="card6">
+            <div class="div9">
+                <p class="tx4">Qovun va tarvuz sayliga   </p>
+                <p class="tx4 txtt2">marhamat, barchasi arzon</p>
+                <p class="tx4 txtt2">narxlarda.</p>
+                <a href="#" class="txt4">Batafsil</a>
+            </div>
+            <div class="div9">
+                <img src="7b3443c64b510cf37941f7b7210acc05855ded6a.png" class="ph6">
+            </div>
+        </div>
+    </div>
+    <p class="tx3">AJOYIB CHEGIRMALAR</p>
+    <div class="block4">
+        <div class="card5 cardd">
+            <img src="05e998ef365e3cadf6dae72ecb3d20d52d141ab5.png" class="ph4">
+            <p class="tx4">55 000 so’m / kg</p>
+            <div class="vid1">
+            <s class="tx5 txtt3">60 000 so’m / kg</s>
+        </div>
+        <div class="vid2">
+            <p class="tx5 txtt4">“Shmuchki” shokolad</p>
+        </div>
+            <button class="bt3 btt">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5 cardd">
+            <img src="d6f08c113bfe98d3c99996cef2962c734a25e0cb.png" class="ph4">
+            <p class="tx4">8 000 so’m / dona</p>
+            <div class="vid1">
+            <s class="tx5 txtt3">8 500 so’m / kg</s>
+        </div>
+        <div class="vid2">
+            <p class="tx5 txtt4">Muzqaymoq</p>
+        </div>
+            <button class="bt3 btt">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5 cardd">
+            <div class="div11">
+            <img src="5622a778d65526ee6d36bc46c3a0ace66475713a.png" class="ph4 phh">
+        </div>
+            <p class="tx4">2 000 so’m / bog’</p>
+            <div class="vid1">
+            <s class="tx5 txtt3">2 200 so’m / kg</s>
+        </div>
+        <div class="vid2">
+            <p class="tx5 txtt4">Ko’katlar</p>
+        </div>
+            <button class="bt3 btt">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5 cardd">
+            <img src="c8ec94a06765c8ff89dad483809148b9e576d725.png" class="ph4">
+             <p class="tx4">11 900 so’m / kg</p>
+             <div class="vid1">
+            <s class="tx5 txtt3">13 900 so’m / kg</s>
+        </div>
+            <div class="vid2">
+            <p class="tx5 txtt">Viko sok</p>
+        </div>
+            <div class="div8 btt">
+    <button class="bt4 min mins">−</button>
+    <span class="coin coins">0</span>
+    <button class="bt4 pl pls">+</button>
+</div>
+        </div>
+    </div>
+    <p class="tx3">TOP MAHSULOTLAR</p>
+    <div class="block4">
+        <div class="card5">
+            <img src="0a6789a353d86f8f3f897813f27f31115eaf99a8.png" class="ph4">
+            <p class="tx4">32 990 so’m / kg</p>
+            <p class="tx5">“To’xtaniyoz ota” kolbasalaril</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="331662a80f79c7e0f382a819b03a5f290d8140e2.png" class="ph4">
+            <p class="tx4">18 000 so’m / dona</p>
+            <p class="tx5">Sariyog’</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="694f02877ba609e66092606022cebbb753ec6ab4 (1).png" class="ph4">
+            <p class="tx4">32 000 so’m / kg</p>
+            <p class="tx5">Alanga guruch</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="67acf585ce9111bc185868c8d26729aba22119c8.png" class="ph4 phh">
+             <p class="tx4">40 910 so’m / kg</p>
+            <p class="tx5">Mosh</p>
+            <div class="div8">
+    <button class="bt4 mino">−</button>
+    <span class="coin coinl">0</span>
+<button class="bt4 plo">+</button>
+</div>
+        </div>
+    </div>
+    <p class="tx3">SIZ UCHUN MAXSUS</p>
+    <div class="block4">
+        <div class="card5">
+            <img src="bfa819bf01c1e4a9486c632054569e08e29f009b.png" class="ph4">
+            <p class="tx4">6 500 so’m / dona</p>
+            <p class="tx5">Coca-cola</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="9a934f75cd8e8fe6bff9fa5706a4b63dde82c8a1 (1).png" class="ph4">
+            <p class="tx4">13 000 so’m / dona</p>
+            <p class="tx5">“Kit Kat” shokolad</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="e3cf9f449653f7e274ee5c0e97c2ac99b1159066.png" class="ph4">
+            <p class="tx4">6 000 so’m / kg</p>
+            <p class="tx5">Sarimsoq piyoz</p>
+            <button class="bt3">Savatchaga qo’shish</button>
+        </div>
+        <div class="card5">
+            <img src="60b3460c9652acbd37afebed7e10d9da97bba86e (1).png" class="ph4 phh">
+             <p class="tx4">5 900 so’m / dona</p>
+            <p class="tx5">“Pepsi” ichimlik</p>
+            <div class="div8">
+    <button class="bt4 mino">−</button>
+    <span class="coin coinl">0</span>
+    <button class="bt4 plo">+</button>
+</div>
+        </div>
+    </div>
+<section class="app-banner">
+  <div class="app-content">
+    <h2>MOBIL ILOVAMIZNI YUKLAB OLING <br> VA TEZDA BUYURTMA QILING</h2>
+    <p class="subtitle">
+      <b>“Inmart”</b> supermarketining mobil ilovasida yanada ko‘proq
+      imkoniyatlarga ega bo‘lishingiz mumkin
+    </p>
+    <div class="app-row">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=inmart.uz" class="qr">
+      <div class="stores">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" class="store">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" class="store">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+
+  <div class="footer-grid">
+
+    <div class="footer-brand">
+      <img src="Vector.png" class="logo">
+      <h3>inmart</h3>
+
+      <div class="socials">
+        <span>◯</span>
+        <span>◯</span>
+        <span>◯</span>
+      </div>
+    </div>
+
+    <div>
+      <h4>Inmart</h4>
+      <a href="#">Biz haqimizda</a>
+      <a href="#">Mahsulotlar</a>
+      <a href="#">Vakansiyalar</a>
+      <a href="#">Hamkor bo’lish</a>
+    </div>
+
+    <div>
+      <h4>Xaridorga yordam</h4>
+      <a href="#">Biz qanday ishlaymiz</a>
+      <a href="#">FAQ</a>
+      <a href="#">To’lov tartibi</a>
+      <a href="#">Yetkazib berish</a>
+    </div>
+
+    <div class="contact">
+      <a href="#" class="phone">+998 99 896-66-66</a>
+      <p>
+        Ushbu qo‘ng‘iroq markazi orqali siz o‘zingizni qiziqtirgan savollarga
+        javob topishingiz mumkin.
+      </p>
+    </div>
+  </div>
+</footer>
+<script>
+let coin = 0;
+let coins = 0;
+
+const coinEl = document.querySelector('.coin');
+const minCoinBtn = document.querySelector('.min');
+const plusCoinBtn = document.querySelector('.pl');
+
+minCoinBtn.onclick = () => {
+    if (coin > 0) {
+        coin--;
+        coinEl.textContent = coin;
+    }
+};
+
+plusCoinBtn.onclick = () => {
+    coin++;
+    coinEl.textContent = coin;
+};
+
+const coinsEl = document.querySelector('.coins');
+const minCoinsBtn = document.querySelector('.mins');
+const plusCoinsBtn = document.querySelector('.pls');
+
+minCoinsBtn.onclick = () => {
+    if (coins > 0) {
+        coins--;
+        coinsEl.textContent = coins;
+    }
+};
+
+plusCoinsBtn.onclick = () => {
+    coins++;
+    coinsEl.textContent = coins;
+};
+
+const coinlEl = document.querySelector('.coinl');
+const minCoinlBtn = document.querySelector('.minso');
+const plusCoinlBtn = document.querySelector('.plso');
+
+minCoinlBtn.onclick = () => {
+    if (coinl > 0) {
+        coinl--;
+        coinlEl.textContent = coinl;
+    }
+};
+
+plusCoinlBtn.onclick = () => {
+    coinl++;
+    coinlEl.textContent = coinl;
+};
+  
+
+</script>
 </body>
 </html>
-
-
-
-
-
-
-
-
